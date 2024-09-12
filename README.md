@@ -19,13 +19,6 @@
    - Users input additional details such as GST paid and sell-through amount.
    - The application calculates the final price based on the entered data.
 
-## Screenshots
-
-- **Initial Input Page**:
-  <img src="images/initial_input_page.png" alt="Initial Input Page" width="600" style="display:block; margin-bottom:10px;">
-
-- **Calculation Page**:
-  <img src="images/calculation_page.png" alt="Calculation Page" width="600" style="display:block; margin-bottom:10px;">
 
 ## Getting Started
 
@@ -47,11 +40,14 @@ To set up the project on your local machine:
 
 ## Screenshots
 
-- **Initial Input Page**:
-  <img src="images/initial_input_page.png" alt="Initial Input Page" width="600" style="display:block; margin-bottom:10px;">
+- **Landing Page**:
+  <img src="Images/Landing.jpg" alt="Initial Input Page" height="600" style="display:block; margin-bottom:10px;">
+  
+  - **Calculation Page**:
+  <img src="Images/Calculate.jpg" alt="Initial Input Page" height="600" style="display:block; margin-bottom:10px;">
 
-- **Calculation Page**:
-  <img src="images/calculation_page.png" alt="Calculation Page" width="600" style="display:block; margin-bottom:10px;">
+- **Result Page**:
+  <img src="Images/Result.jpg" alt="Calculation Page" height="600" style="display:block; margin-bottom:10px;">
 
 ## Future Enhancements
 
