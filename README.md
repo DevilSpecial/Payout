@@ -26,7 +26,7 @@ To set up the project on your local machine:
 
 1. Clone the repository:
    ```bash
-   git clone <[repo-url](https://github.com/DevilSpecial/Payout.git)>
+   git clone <https://github.com/DevilSpecial/Payout.git>
 
 2. Open the project in Android Studio.   
   
@@ -56,5 +56,12 @@ To set up the project on your local machine:
 - **Improved UI/UX**: Enhance the user interface and experience based on real-world usage.
 
 - **Export/Save Functionality**: Allow users to save or export the calculated results.
+
+## Download the App
+
+To download the Payout app, scan the QR code below or click the [Google Drive link](https://drive.google.com/your-apk-link-here](https://drive.google.com/file/d/1UP1G-yGWKEWBoY5cOuLFn5VrPyWzggY8/view?usp=drive_link)).
+
+- **QR Code**:
+  <img src="Images/qrcode.png" alt="QR Code to Download Payout" width="200">
 
 
