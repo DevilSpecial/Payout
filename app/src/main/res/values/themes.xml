@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Payout" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:navigationBarColor">#AAAAB1</item>
+        <item name="android:statusBarColor">#AAAAB1</item>
+    </style>
+
+    <style name="Theme.Payout" parent="Base.Theme.Payout" />
+</resources>

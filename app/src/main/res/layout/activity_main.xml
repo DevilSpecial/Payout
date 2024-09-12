@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:scrollbars="none"
+    android:background="#AAAAB1"
+    android:fillViewport="true"
+
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        >
+        <TextView
+            android:id="@+id/tv_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Choose Notebook"
+            android:textColor="#1A1919"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_core"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="28dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/notebook_bg"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppins"
+            android:paddingVertical="10dp"
+            android:text="Core Series"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_signin" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_premium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="28dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/notebook_bg"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppins"
+            android:paddingVertical="10dp"
+            android:text="Premium Series"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_core" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_super_premium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="28dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/notebook_bg"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppins"
+            android:paddingVertical="10dp"
+            android:text="Super Premium"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_premium" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_velocity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="28dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/notebook_bg"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppins"
+            android:paddingVertical="10dp"
+            android:text="Velocity"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_super_premium" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_upfront_t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="28dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/notebook_bg"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppins"
+            android:paddingVertical="10dp"
+            android:text="Upfront/T2 Series"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_velocity" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
